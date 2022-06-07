@@ -10,13 +10,17 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - See a hover state on desktop for the Sign Up call-to-action
 
-### Screenshot
+### Challenge Screenshot
+
+![](/design/desktop-design.jpg)
+
+### Completed Screenshot
 
 ![](/images/HomePage.jpg)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mastza28.github.io/single-price-grid-component-master/)
+- Live Site URL: [Mastza28 Single Price Grid](https://mastza28.github.io/single-price-grid-component-master/)
 
 ### Author
 
