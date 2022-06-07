@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Karla';
+    font-size: 18px;
+    background-color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+    color:hsl(204, 43%, 93%)
+}
+
+.join {
+    color: hsl(179, 62%, 43%);
+    text-align: left;
+}
+
+.day {
+    color: hsl(71, 73%, 54%);
+    text-align: left;
+}
+
+.gain {
+    color: hsl(218, 22%, 67%);
+    text-align: left;
+}
+
+.per {
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(175, 55%, 65%)
+}
+ .sign {
+    color: hsl(179, 62%, 50%);
+ }
+
+
+.container {
+    margin: 5% auto 20% auto;
+    display: grid;
+    width: 50%;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tblock {
+    grid-area: 1 / 1 / 1 / 3;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.lblock {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: hsl(179, 62%, 35%);
+    color: white;
+    border-radius: 0px 0px 0px 20px;
+    text-align: left;
+    padding: 10%;
+}
+
+.rblock {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: hsl(180, 45%, 40%);
+    color: white;
+    text-align: left;
+    padding: 10%;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.rblock p {
+    color: hsl(175, 55%, 75%)
+}
+
+
+.attribution {
+    position: relative;
+    bottom: 20px;
+}
+
+.access {
+    color: hsl(175, 55%, 75%);
+    position: relative;
+}
+
+.signup {
+    color: antiquewhite
+}
+
+button {
+    background-color: hsl(71, 73%, 40%);
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.3) ;
+    font-size: 18px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        grid-template-columns: 350px;
+        grid-template-rows: 400px 400px 400px;
+        width: 350px;
+    }
+
+    .tblock {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .lblock {
+        grid-area: 2 / 1 / 3 / 1;
+        border-radius: 0;
+    }
+    
+    .rblock {
+        grid-area: 3 / 1 / 4 / 1;
+        border-radius: 0 0 20px 20px
+    }
+}
+
+
+
+
+
+
