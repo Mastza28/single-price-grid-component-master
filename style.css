@@ -120,6 +120,7 @@ button:hover {
 
     .tblock {
         grid-area: 1 / 1 / 2 / 2;
+        padding: 10px;
     }
 
     .lblock {
