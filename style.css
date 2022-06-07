@@ -44,7 +44,7 @@ h3 {
 .container {
     margin: 5% auto 20% auto;
     display: grid;
-    width: 50%;
+    width: 800px;
     grid-template-columns: 50% auto;
     grid-template-rows: auto auto;
     text-align: center;
@@ -113,9 +113,9 @@ button:hover {
 
 @media screen and (max-width: 850px) {
     .container {
-        grid-template-columns: 450px;
-        grid-template-rows: 450px 450px 450px;
-        width: 450px;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        width: 85%;
     }
 
     .tblock {
@@ -133,6 +133,7 @@ button:hover {
     }
 
 }
+
 
 
 
