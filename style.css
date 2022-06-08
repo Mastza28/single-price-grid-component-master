@@ -16,6 +16,10 @@ h3 {
     color:hsl(204, 43%, 93%)
 }
 
+ul {
+    list-style: circle;
+}
+
 .join {
     color: hsl(179, 62%, 43%);
     text-align: left;
